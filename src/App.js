@@ -1,10 +1,14 @@
+import Header from './components/Header';
+import NotesPage from './pages/NotesPage';
 
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1> My App </h1>
+      <Header />
+      <NotesPage />
     </div>
   );
 }
